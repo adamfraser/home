@@ -22,6 +22,8 @@
 /.lesshst
 /.ssh
 /.npm
+/.nvm
+/.zcompdump
 /Applications
 /Desktop
 /Documents
