@@ -113,6 +113,9 @@ set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }
 
+## Add timestap to prompt
+PROMPT='%{$fg[cyan]%}[%D{%T}] '$PROMPT
+
 #### Aliases ####
 
 # The rest of my fun git aliases
